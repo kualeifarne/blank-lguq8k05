@@ -1,0 +1,13 @@
+{
+  "name": "@backlight-dev/arch-cheer-mzwiu.blank-lguq8k05",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx backlight@latest serve vgYpwEPaNMIHpctwlTzZ --open"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
