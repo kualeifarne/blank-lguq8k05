@@ -146,7 +146,7 @@
   },
   "accent": {
     "default": {
-      "value": "{colors.red.600}",
+      "value": "{colors.green.600}",
       "type": "color"
     },
     "onAccent": {
