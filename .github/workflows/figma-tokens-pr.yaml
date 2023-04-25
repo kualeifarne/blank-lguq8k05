@@ -25,7 +25,7 @@ jobs:
         run: npx style-dictionary build --config sd.config.cjs
 
       - name: Commit changes
-        run: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v9
         with:
           author_name: Example
           author_email: example@mail,com
