@@ -15,7 +15,7 @@ jobs:
       - name: Create Pull Request
         uses: repo-sync/pull-request@v2
         with:
-          destination_branch: 'main'
-          pr_title: 'Figma Tokens Update'
-          pr_body: 'Design Tokens were updated in Figma! This PR was created to update the code.'
+          destination_branch: "main"
+          pr_title: "Figma Tokens Update"
+          pr_body: "Design Tokens were updated in Figma! This PR was created to update the code."
           github_token: ${{ secrets.GH_PAT }}
