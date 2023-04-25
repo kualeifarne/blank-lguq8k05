@@ -10,7 +10,7 @@
   --figma-card-border-radius: 8;
   --figma-card-background: #1a202c;
   --figma-card-padding: 4 * 2 * 2;
-  --figma-box-shadow-default: [object Object],[object Object];
+  --figma-box-shadow-default: [object Object], [object Object];
   --figma-typography-h1-bold: [object Object];
   --figma-typography-h1-regular: [object Object];
   --figma-typography-h2-bold: [object Object];
@@ -22,7 +22,7 @@
   --figma-bg-default: #1a202c;
   --figma-bg-muted: #4a5568;
   --figma-bg-subtle: #718096;
-  --figma-accent-default: #e53e3e;
+  --figma-accent-default: #68d391;
   --figma-accent-on-accent: #f7fafc;
   --figma-accent-bg: #9b2c2c;
   --figma-shadows-default: rgba(#000000, 0.3);
