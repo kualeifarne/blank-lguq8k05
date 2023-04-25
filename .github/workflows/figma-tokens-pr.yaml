@@ -22,12 +22,12 @@ jobs:
         run: npx token-transformer sd-input/src/figma-tokens-output.json sd-input/src/sd-input.json --resolveReferences false
 
       - name: Run style-dictionary
-        uses: npx style-dictionary build --config sd.config.cjs
+        run: npx style-dictionary build --config sd.config.cjs
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
           author_name: Example
-          author_email: example@mail,com
+          author_email: example@gmail.com
           message: 'chore: style-dictionary output'
           add: '.'
